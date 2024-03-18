@@ -7,7 +7,9 @@ class LoginPage extends StatelessWidget {
   Widget build(BuildContext context) {
     return Scaffold(
       body: Center(
-        child: Text("data"),
+        child: Column(
+          children: [Text("data"), Text("data"), Text("data"), Text("data")],
+        ),
       ),
     );
   }
